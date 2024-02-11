@@ -1,0 +1,20 @@
+# Ignorar archivos generados por el sistema operativo
+*.pyc
+__pycache__/
+
+# Ignorar el entorno virtual
+venv/
+
+# Ignorar archivos de configuración local
+backend/*.sqlite3
+*.env
+
+# Ignorar archivos y directorios generados por el IDE (ajusta según tu entorno de desarrollo)
+.vscode/
+.idea/
+
+# Ignorar archivos de caché y registros
+*.log
+
+# Ignorar el directorio node_modules de la aplicación React
+#backend/frontend
