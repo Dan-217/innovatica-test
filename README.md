@@ -6,6 +6,8 @@ python3 -m venv venv
 source venv/bin/activate  
 pip install -r requirements.txt
 
+pip freeze > requirements.txt
+
 ## Ejecucion (Solo para ejecutar y probar)
 
 docker build -t innovatica-app .  
